@@ -48852,23 +48852,4 @@ This project is designed as a **practice-level, CPU-friendly** system (no GPU re
 | Agent | Responsibilities |
 |-------|-----------------|
 | 🏦 **Taxation Agent** | Tax calculation, filing assistance, query resolution, refund status |
-| 📜 **Licensing Agent** | License application, renewal, document verification, status tracking |
-| 🏥 **Healthcare Agent** | Hospital/scheme discovery, appointment workflows, health records |
-| 🏛️ **Public Services Agent** | Birth/death certificates, ration cards, utility connections |
-| 🚗 **Transportation Agent** | Driving license, vehicle registration, challan queries |
-| 📢 **Citizen Request Agent** | Complaints, grievances, feedback, general queries |
-
-**How it works:** When a user asks a question (e.g., *"How do I renew my driving license?"*), the **Agent Router** analyzes the intent and dispatches it to the **Transportation Agent**, which uses Gemini to provide a contextual response and initiates a renewal workflow.
-
----
-
-## ⚙️ Core Features
-
-- **🤖 Multi-Agent Architecture** — 6 specialized AI agents with an intelligent router.
-- **💬 AI Chat Interface** — Real-time conversations powered by Google Gemini (`gemini-1.5-flash`), complete with typing indicators and chat history.
-- **🔄 Workflow Engine** — State-machine-driven multi-step approval flows *(Apply → Verify → Review → Approve → Notify)*.
-- **📊 Governance Dashboard** — Admin panel to monitor agents, track all requests, view audit logs, and manage users.
-- **🔐 Role-Based Access Control (RBAC)** — Separate citizen and admin experiences with JWT authentication.
-- **📋 Request Lifecycle Tracking** — Every request goes through tracked states with visual steppers and timelines.
-- **📜 Audit Logging** — Every agent action, request change, and user operation is recorded for governance transparency.
-- **🔔 Notifications** — In-app alerts when 
+| 📜 **Licensing Agent** | License application, 
