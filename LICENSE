@@ -50504,20 +50504,3 @@ This project is designed as a **practice-level, CPU-friendly** system (no GPU re
 ## ⚙️ Core Features
 
 - **🤖 Multi-Agent Architecture** — 6 specialized AI agents with an intelligent router.
-- **💬 AI Chat Interface** — Real-time conversations powered by Google Gemini (`gemini-1.5-flash`), complete with typing indicators and chat history.
-- **🔄 Workflow Engine** — State-machine-driven multi-step approval flows *(Apply → Verify → Review → Approve → Notify)*.
-- **📊 Governance Dashboard** — Admin panel to monitor agents, track all requests, view audit logs, and manage users.
-- **🔐 Role-Based Access Control (RBAC)** — Separate citizen and admin experiences with JWT authentication.
-- **📋 Request Lifecycle Tracking** — Every request goes through tracked states with visual steppers and timelines.
-- **📜 Audit Logging** — Every agent action, request change, and user operation is recorded for governance transparency.
-- **🔔 Notifications** — In-app alerts when request status changes.
-
----
-
-## 🏗️ Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| **Frontend** | React 18, Vite, Tailwind CSS, React Router, Axios |
-| **Backend** | Python 3.10+, FastAPI, SQLAlchemy (ORM), Uvicorn |
-| **Database** | SQLite (File-based, 
