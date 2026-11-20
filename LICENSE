@@ -51493,20 +51493,4 @@ Here is how a request flows through the system:
                                          │
                        ┌─────────────────┴─────────────────┐
                        ▼                                   ▼
-             [ Agent Router ]                     [ Auth & Security ]
-                       │                                   │
-         ┌─────────────┼─────────────┐                     ▼
-         ▼             ▼             ▼               [ JWT / Bcrypt ]
-   [ Taxation ]  [ Healthcare ]  [ Transport ]               │
-     Agent          Agent          Agent                    │
-         │             │             │                      │
-         └─────────────┼─────────────┘                      ▼
-                       ▼                             [ SQLite Database ]
-                [ Gemini API ]                       - Users
-                (LLM Engine)                         - Requests
-                       │                             - Workflows
-                       ▼                             - Audit Logs
-              [ Workflow Engine ]
-             (State Transitions)
-                       │
-                       ▼
+             [ Agent Router ]                     [ 
