@@ -50574,35 +50574,3 @@ messages — Individual chat messages (id, conversation_id, role, content, times
 
 audit_logs — System action logs (id, user_id, action, entity, timestamp)
 
-notifications — User alerts (id, user_id, title, message, is_read)
-
-🔌 API Endpoints Overview
-Auth
-POST /api/auth/register — Register a new citizen
-
-POST /api/auth/login — Login and receive JWT token
-
-Agents & Chat
-GET /api/agents — List all 6 agents
-
-POST /api/chat — Send a message to an agent (Powered by Gemini)
-
-Requests & Workflows
-POST /api/requests — Create a new service request
-
-GET /api/requests/my — Get logged-in user's requests
-
-GET /api/requests/{id} — Get request details & workflow status
-
-Admin (Protected)
-GET /api/admin/requests — View all system requests
-
-GET /api/admin/audit-logs — View system audit logs
-
-GET /api/admin/stats — Get governance dashboard metrics
-
-📂 Project Structure
-text
-civic-ai-suite/
-│
-├── frontend/              # React + Vite + 
