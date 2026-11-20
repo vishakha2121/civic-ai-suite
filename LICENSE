@@ -50637,39 +50637,3 @@ Prerequisites
 Node.js (v18 or higher)
 
 Python (v3.10 or higher)
-
-Google Gemini API Key (Free tier is sufficient) — Get it here
-
-1. Backend Setup
-bash
-# Navigate to backend folder
-cd backend
-
-# Create and activate virtual environment
-python -m venv venv
-# Windows: venv\Scripts\activate
-# Mac/Linux: source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-Create a .env file in the backend folder and add your keys:
-
-env
-GEMINI_API_KEY=your_google_gemini_api_key_here
-SECRET_KEY=your_super_secret_jwt_key_here
-DATABASE_URL=sqlite:///../database/digital_gov.db
-Initialize the database and run the server:
-
-bash
-python run.py
-(Backend will run on http://localhost:8000)
-
-2. Frontend Setup
-Open a new terminal window:
-
-bash
-# Navigate to frontend folder
-cd frontend
-
-# Install dependencies
-    
