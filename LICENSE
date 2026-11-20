@@ -50520,20 +50520,4 @@ This project is designed as a **practice-level, CPU-friendly** system (no GPU re
 |-------|-----------|
 | **Frontend** | React 18, Vite, Tailwind CSS, React Router, Axios |
 | **Backend** | Python 3.10+, FastAPI, SQLAlchemy (ORM), Uvicorn |
-| **Database** | SQLite (File-based, zero-configuration, CPU-friendly) |
-| **AI Engine** | Google Gemini API (`gemini-1.5-flash` model) |
-| **Security** | JWT (JSON Web Tokens), Bcrypt (Password Hashing) |
-| **Architecture** | Multi-Agent System, State Machine Workflows, REST API |
-
----
-
-## 🔄 System Architecture
-
-Here is how a request flows through the system:
-
-```text
-[ User / Citizen ]
-       │
-       ▼
-[ React Frontend ] ──(REST API)──► [ FastAPI Backend ]
-                                         │
+| **Database** | SQLite (File-based, 
