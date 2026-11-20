@@ -45534,29 +45534,3 @@ Badges — Ekdum professional top section.
 Table of Contents — Clickable links (GitHub pe kaam karte hain).
 
 Architecture Diagram — Text-based flow chart (Interviewer ko bahot pasand aata hai).
-
-Database Schema & API Endpoints — Clear proof ki backend strong hai.
-
-Screenshots Section — Jagah bani hui hai, project banne ke baad tum apne UI ke photos daal dena.
-
-Setup Guide — Proper .env variables ke saath.
-
-Isko copy-paste karke apne GitHub pe push kar do. Uske baad hum Backend Phase 1 (Code writing) start karenge. Ready ho toh bolo! 🚀
-
-lience fule
-Bhai, open-source projects ke liye sabse best aur standard license hota hai MIT License. Ye sabse simple hai, isme koi legal jhanjhat nahi hota, aur interviewers ko bhi samajh aata hai ki project open-source aur free to use hai.
-
-Bas is code ko copy karo, apne project ke main folder (jahan README.md hai wahan) me LICENSE naam se ek nayi file banao (bina kisi extension ke, sirf LICENSE naam rakho), aur usme paste kar do.
-
-📄 LICENSE (Copy Everything Below)
-text
-MIT License
-
-Copyright (c) 2026 Vishakha
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
