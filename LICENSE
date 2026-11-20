@@ -50672,33 +50672,4 @@ bash
 cd frontend
 
 # Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-(Frontend will run on http://localhost:5173)
-
-📸 Screenshots
-(Add screenshots of your project here once built)
-
-Landing Page	Agent Chat Interface
-[Insert Image]	[Insert Image]
-Citizen Dashboard	Admin Governance Panel
-[Insert Image]	[Insert Image]
-🚀 Future Scope
-Integration with real government APIs (Aadhaar, DigiLocker).
-
-Voice-based interaction using Speech-to-Text.
-
-Advanced document parsing (OCR) for automated verification.
-
-Real-time notifications via WebSockets.
-
-👨‍💻 Author
-[Vishakha]
-Practice Project — Demonstrating Multi-Agent AI in Public Services.
-
-<div align="center"> <i>Built with ❤️ using React, FastAPI, and Google Gemini.</i> </div> ```
-✅ Kya kya add kiya hai isme:
-Badges — Ekdum professional top section.
-
+    
