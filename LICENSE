@@ -50001,6 +50001,3 @@ GEMINI_API_KEY=your_google_gemini_api_key_here
 SECRET_KEY=your_super_secret_jwt_key_here
 DATABASE_URL=sqlite:///../database/digital_gov.db
 Initialize the database and run the server:
-
-bash
-python run.py
