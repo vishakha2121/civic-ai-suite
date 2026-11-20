@@ -50965,39 +50965,3 @@ cd backend
 
 # Create and activate virtual environment
 python -m venv venv
-# Windows: venv\Scripts\activate
-# Mac/Linux: source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-Create a .env file in the backend folder and add your keys:
-
-env
-GEMINI_API_KEY=your_google_gemini_api_key_here
-SECRET_KEY=your_super_secret_jwt_key_here
-DATABASE_URL=sqlite:///../database/digital_gov.db
-Initialize the database and run the server:
-
-bash
-python run.py
-(Backend will run on http://localhost:8000)
-
-2. Frontend Setup
-Open a new terminal window:
-
-bash
-# Navigate to frontend folder
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-(Frontend will run on http://localhost:5173)
-
-📸 Screenshots
-(Add screenshots of your project here once built)
-
-Landing Page	Agent Chat Interface
-R IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
